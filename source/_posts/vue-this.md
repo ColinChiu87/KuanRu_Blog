@@ -1,7 +1,7 @@
 ---
 title: 什麼時候該使用『 const vm = this 』
 date: 2021-05-12 13:28:43
-tags: Vue
+tags: Vue.js
 ---
 
  ** 影響this的是在於*函式的呼叫方式* **

@@ -3,6 +3,7 @@ title: 來聊聊 Type Script
 date: 2021-07-22 17:43:01
 tags: ts
 ---
+# 前言
 第一次在專案裡與 TS 相遇，那就不免俗的了解囉！
 
 {% asset_img js-ts.jpg %}
@@ -10,15 +11,15 @@ tags: ts
 稍微簡介一下～
 TypeScript是由微軟開發的一種能用來編譯出JavaScript程式碼的程式語言，因其比JS還多了一道編譯手續，能夠在編譯階段找出語法上的問題，而且也添加了型別檢查的機制，讓程式更容易閱讀與偵錯，也更適合開發大型的專案。
 白話一點來說，JS可以通過TS編譯器來編譯，而且還能夠實現JavaScript的版本轉換(例如ES6轉ES5)
-
+<!--more-->
 # 安裝與設定
-### Node.js
+## Node.js
 我們要先設定好Node.js和npm環境，建議使用Node.js最新的LTS版本。
 Node.js是JavaScript程式的執行環境，讓我們不需要開啟瀏覽器也可以執行JS。而npm則是JS的套件管理器，常與Node.js一同被安裝。
 
 Windows的使用者可以直接到[Node.js官方網站](https://nodejs.org/en/)下載，而Linux或MacOS的使用者可以參考[這篇文章](https://magiclen.org/linux-install-nodejs/)安裝指定版本。
 
-### tsc
+## tsc
 tsc是TypeScript程式的編譯器，能夠將TS編譯成JS。
 執行以下npm指令:
 ```

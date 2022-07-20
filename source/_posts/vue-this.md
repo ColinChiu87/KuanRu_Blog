@@ -12,7 +12,7 @@ reverseText: function(){
     return this.text.split('').reverse().join('');
 }
 ```
-
+<!--more-->
 在第一個範例中，this運行後都是在這個元件底下
 並沒有另外的函式在內（ex: forEach）
 全部的this都是指向**Vue的該元件**

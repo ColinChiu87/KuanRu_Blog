@@ -15,7 +15,7 @@ let app = newVue({
     },
 })
 ```
-
+<!--more-->
 在使用組件化的項目中使用的形式是如下：
 ```js
 export default {

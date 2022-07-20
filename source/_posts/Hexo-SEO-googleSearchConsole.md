@@ -7,7 +7,7 @@ tags: [Hexo, SEO, Google Search Console]
 發布了自己的部落格後，是不是發現在 Google 搜尋引擎找不著自己的網站呀！
 難道是自己已經邊緣到被全世界排擠了嗎...QAQ
 雖然這也有可能是一個原因啦...(XD，不鬧了
-
+<!--more-->
 # Google Search Console
 它的前身叫做 Google Webmaster Tool，而它的作用就是專門管理你的網站在搜尋引擎的 SEO 表現，
 如果你想知道你的網站熱門的關鍵字、曝光或點擊數量，那麼你一定要試試。

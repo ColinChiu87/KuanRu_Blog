@@ -106,3 +106,7 @@ deploy:
   repo: https://github.com/ColinChiu87/ColinChiu87.github.io
   branch: master
 
+
+  # Sitemap
+  sitemap:
+    path: sitemap.xml

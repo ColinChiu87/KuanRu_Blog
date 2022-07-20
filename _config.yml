@@ -107,6 +107,6 @@ deploy:
   branch: master
 
 
-  # Sitemap
-  sitemap:
-    path: sitemap.xml
+# Sitemap
+sitemap:
+  path: sitemap.xml

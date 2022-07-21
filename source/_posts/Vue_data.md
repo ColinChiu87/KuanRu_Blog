@@ -4,6 +4,7 @@ date: 2021-07-13 19:46:10
 tags: Vue.js
 ---
 在簡單的vue實例中看到的data屬性如下：
+
 ```js
 let app = newVue({
     el: "app",
@@ -17,6 +18,7 @@ let app = newVue({
 ```
 <!--more-->
 在使用組件化的項目中使用的形式是如下：
+
 ```js
 export default {
     data(){

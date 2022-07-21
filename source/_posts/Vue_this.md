@@ -4,9 +4,10 @@ date: 2021-05-12 13:28:43
 tags: Vue.js
 ---
 
- ** 影響this的是在於*函式的呼叫方式* **
+ **影響this的是在於*函式的呼叫方式***
 
 以下為this的範例
+
 ```js
 reverseText: function(){
     return this.text.split('').reverse().join('');
@@ -20,6 +21,7 @@ reverseText: function(){
 
 至於使用 vm = this 可以避免內部有其他函式叫
 導致 this 的運作不如預期。
+
 ```js
 //因為在""內層函式""filter的函式內使用到this，指向會跑掉，所以需要使用vm。
 filterArray: function(){
@@ -29,4 +31,5 @@ filterArray: function(){
     })
 }
 ```
- ** 除了使用 filter/ forEach 會讓this指向window外，函式在直接呼叫的時候this也會指向window **
+
+ **除了使用 filter/ forEach 會讓this指向window外，函式在直接呼叫的時候this也會指向window**
